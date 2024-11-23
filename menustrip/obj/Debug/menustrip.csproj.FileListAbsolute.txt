@@ -1,0 +1,10 @@
+C:\Users\hougj\source\repos\menustrip\menustrip\bin\Debug\menustrip.exe.config
+C:\Users\hougj\source\repos\menustrip\menustrip\bin\Debug\menustrip.exe
+C:\Users\hougj\source\repos\menustrip\menustrip\bin\Debug\menustrip.pdb
+C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.csproj.AssemblyReference.cache
+C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.Form1.resources
+C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.Properties.Resources.resources
+C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.csproj.GenerateResource.cache
+C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.csproj.CoreCompileInputs.cache
+C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.exe
+C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.pdb
