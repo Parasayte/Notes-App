@@ -17,3 +17,4 @@ C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.menu.resourc
 C:\Users\hougj\source\repos\menustrip\menustrip\bin\Debug\Guna.UI2.dll
 C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.AddNewFile.resources
 C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.directories.resources
+C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.AddNewDirectory.resources
