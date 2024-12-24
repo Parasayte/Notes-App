@@ -8,4 +8,11 @@ C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\Note.csproj.GenerateRe
 C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\Note.csproj.CoreCompileInputs.cache
 C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.exe
 C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.pdb
-C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.Form2.resources
+C:\Users\hougj\source\repos\menustrip\menustrip\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\hougj\source\repos\menustrip\menustrip\bin\Debug\itextsharp.dll
+C:\Users\hougj\source\repos\menustrip\menustrip\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\hougj\source\repos\menustrip\menustrip\bin\Debug\itextsharp.xml
+C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\Note.csproj.Up2Date
+C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.menu.resources
+C:\Users\hougj\source\repos\menustrip\menustrip\bin\Debug\Guna.UI2.dll
+C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.AddNewFile.resources
