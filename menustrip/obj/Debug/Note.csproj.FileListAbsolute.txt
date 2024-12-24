@@ -16,3 +16,4 @@ C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\Note.csproj.Up2Date
 C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.menu.resources
 C:\Users\hougj\source\repos\menustrip\menustrip\bin\Debug\Guna.UI2.dll
 C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.AddNewFile.resources
+C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.directories.resources

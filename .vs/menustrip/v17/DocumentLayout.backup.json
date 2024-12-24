@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\hougj\\source\\repos\\menustrip\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|c:\\users\\hougj\\source\\repos\\menustrip\\menustrip\\directories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|solutionrelative:menustrip\\directories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|c:\\users\\hougj\\source\\repos\\menustrip\\menustrip\\directories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|solutionrelative:menustrip\\directories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|c:\\users\\hougj\\source\\repos\\menustrip\\menustrip\\addnewfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|solutionrelative:menustrip\\addnewfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|solutionrelative:menustrip\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|c:\\users\\hougj\\source\\repos\\menustrip\\menustrip\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|solutionrelative:menustrip\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|c:\\users\\hougj\\source\\repos\\menustrip\\menustrip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|solutionrelative:menustrip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|c:\\users\\hougj\\source\\repos\\menustrip\\menustrip\\addnewfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|solutionrelative:menustrip\\addnewfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|solutionrelative:menustrip\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|solutionrelative:menustrip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|c:\\users\\hougj\\source\\repos\\menustrip\\menustrip\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|solutionrelative:menustrip\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|solutionrelative:menustrip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|c:\\users\\hougj\\source\\repos\\menustrip\\menustrip\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3311194E-9A4E-49DC-9E96-A178D092C346}|menustrip\\Note.csproj|solutionrelative:menustrip\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,60 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\Form1.cs",
-              "RelativeDocumentMoniker": "menustrip\\Form1.cs",
-              "ToolTip": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\Form1.cs*",
-              "RelativeToolTip": "menustrip\\Form1.cs*",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwBYAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T17:36:45.448Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "menustrip\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\Form1.Designer.cs*",
-              "RelativeToolTip": "menustrip\\Form1.Designer.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T12:07:08.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddNewFile.cs",
-              "DocumentMoniker": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\AddNewFile.cs",
-              "RelativeDocumentMoniker": "menustrip\\AddNewFile.cs",
-              "ToolTip": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\AddNewFile.cs",
-              "RelativeToolTip": "menustrip\\AddNewFile.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAqwCgAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T12:25:46.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddNewFile.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\AddNewFile.cs",
-              "RelativeDocumentMoniker": "menustrip\\AddNewFile.cs",
-              "ToolTip": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\AddNewFile.cs [Design]",
-              "RelativeToolTip": "menustrip\\AddNewFile.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T12:21:01.796Z",
-              "EditorCaption": " [Design]"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -119,36 +71,99 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "menu.cs",
-              "DocumentMoniker": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\menu.cs",
-              "RelativeDocumentMoniker": "menustrip\\menu.cs",
-              "ToolTip": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\menu.cs",
-              "RelativeToolTip": "menustrip\\menu.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAqwD4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T10:22:45.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "menu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\menu.cs",
               "RelativeDocumentMoniker": "menustrip\\menu.cs",
               "ToolTip": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\menu.cs [Design]",
               "RelativeToolTip": "menustrip\\menu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T10:22:38.74Z",
+              "WhenOpened": "2024-12-24T14:21:53.854Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddNewFile.cs",
+              "DocumentMoniker": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\AddNewFile.cs",
+              "RelativeDocumentMoniker": "menustrip\\AddNewFile.cs",
+              "ToolTip": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\AddNewFile.cs",
+              "RelativeToolTip": "menustrip\\AddNewFile.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwCoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T14:20:34.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddNewFile.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\AddNewFile.cs",
+              "RelativeDocumentMoniker": "menustrip\\AddNewFile.cs",
+              "ToolTip": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\AddNewFile.cs [Design]",
+              "RelativeToolTip": "menustrip\\AddNewFile.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T14:20:32.854Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\Form1.cs",
+              "RelativeDocumentMoniker": "menustrip\\Form1.cs",
+              "ToolTip": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\Form1.cs",
+              "RelativeToolTip": "menustrip\\Form1.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwDEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T14:20:08.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "directories.cs",
+              "DocumentMoniker": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\directories.cs",
+              "RelativeDocumentMoniker": "menustrip\\directories.cs",
+              "ToolTip": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\directories.cs",
+              "RelativeToolTip": "menustrip\\directories.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T14:08:09.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "directories.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\directories.cs",
+              "RelativeDocumentMoniker": "menustrip\\directories.cs",
+              "ToolTip": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\directories.cs [Design]",
+              "RelativeToolTip": "menustrip\\directories.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T14:08:05.44Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "menu.cs",
+              "DocumentMoniker": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\menu.cs",
+              "RelativeDocumentMoniker": "menustrip\\menu.cs",
+              "ToolTip": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\menu.cs",
+              "RelativeToolTip": "menustrip\\menu.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAIwEwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T10:22:45.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\Form1.cs",
               "RelativeDocumentMoniker": "menustrip\\Form1.cs",
-              "ToolTip": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\Form1.cs [Design]*",
-              "RelativeToolTip": "menustrip\\Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\hougj\\source\\repos\\menustrip\\menustrip\\Form1.cs [Design]",
+              "RelativeToolTip": "menustrip\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T10:34:23.333Z",
               "EditorCaption": " [Design]"
