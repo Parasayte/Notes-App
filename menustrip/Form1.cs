@@ -4,7 +4,7 @@ using System.IO;
 using System.Windows.Forms;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
-using System.IO;
+
 
 namespace menustrip
 {
@@ -31,15 +31,6 @@ namespace menustrip
             rcbx.BackColor = Color.White;
             rcbx.ForeColor = Color.Black;
         }
-
-      
-
-      
-
-     
-        
-
-     
         private void textToolStripMenuItem_Click(object sender, EventArgs e)
         {
           
@@ -56,7 +47,7 @@ namespace menustrip
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            menu a= new menu();
+           directories a= new directories();
             a.Show();
             Hide();
         }
