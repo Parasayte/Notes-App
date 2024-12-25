@@ -141,5 +141,29 @@
   <ItemGroup>
     <None Include="Resources\C.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hopstarter-Sleek-Xp-Basic-Close.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hopstarter-Sleek-Xp-Basic-Cancel.16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hopstarter-Sleek-Xp-Basic-Ok.16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hopstarter-Sleek-Xp-Basic-Applications-Cascade.16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hopstarter-Sleek-Xp-Basic-Download.16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hopstarter-Adobe-Cs4-File-Adobe-Dreamweaver-HTML-01.16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hopstarter-Sleek-Xp-Basic-Copy.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hopstarter-Sleek-Xp-Basic-Files.48.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

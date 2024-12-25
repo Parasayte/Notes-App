@@ -31,7 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.textToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exportAsHTMLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rcbx = new System.Windows.Forms.RichTextBox();
             this.menuStrip1.SuspendLayout();
@@ -52,28 +52,32 @@
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.saveToolStripMenuItem,
+            this.exportAsHTMLToolStripMenuItem,
             this.exitToolStripMenuItem});
+            this.fileToolStripMenuItem.Image = global::menustrip.Properties.Resources.Hopstarter_Sleek_Xp_Basic_Applications_Cascade_16;
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // saveToolStripMenuItem
             // 
-            this.saveToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.textToolStripMenuItem});
+            this.saveToolStripMenuItem.Image = global::menustrip.Properties.Resources.Hopstarter_Sleek_Xp_Basic_Ok_16;
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.saveToolStripMenuItem.Text = "Save";
+            this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
-            // textToolStripMenuItem
+            // exportAsHTMLToolStripMenuItem
             // 
-            this.textToolStripMenuItem.Name = "textToolStripMenuItem";
-            this.textToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.textToolStripMenuItem.Text = "text";
-            this.textToolStripMenuItem.Click += new System.EventHandler(this.textToolStripMenuItem_Click);
+            this.exportAsHTMLToolStripMenuItem.Image = global::menustrip.Properties.Resources.Hopstarter_Adobe_Cs4_File_Adobe_Dreamweaver_HTML_01_16;
+            this.exportAsHTMLToolStripMenuItem.Name = "exportAsHTMLToolStripMenuItem";
+            this.exportAsHTMLToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exportAsHTMLToolStripMenuItem.Text = "Export as HTML";
+            this.exportAsHTMLToolStripMenuItem.Click += new System.EventHandler(this.exportAsHTMLToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
+            this.exitToolStripMenuItem.Image = global::menustrip.Properties.Resources.Hopstarter_Sleek_Xp_Basic_Cancel_16;
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "Exit";
@@ -114,14 +118,13 @@
 
         }
 
-        private System.Windows.Forms.ToolStripMenuItem textToolStripMenuItem;
-
         #endregion
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         public System.Windows.Forms.RichTextBox rcbx;
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exportAsHTMLToolStripMenuItem;
     }
 }
 
