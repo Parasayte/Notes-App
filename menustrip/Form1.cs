@@ -2,8 +2,7 @@
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
+
 
 
 namespace menustrip
@@ -18,10 +17,7 @@ namespace menustrip
             path = path1;
         }
 
-        private void setColorsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-           
-        }
+        
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -47,7 +43,8 @@ namespace menustrip
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           directories a= new directories();
+            string parentPath = Path.GetDirectoryName(path);
+            menu a = new menu(parentPath);
             a.Show();
             Hide();
         }

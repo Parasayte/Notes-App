@@ -9,12 +9,9 @@ C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\Note.csproj.CoreCompil
 C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.exe
 C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.pdb
 C:\Users\hougj\source\repos\menustrip\menustrip\bin\Debug\BouncyCastle.Cryptography.dll
-C:\Users\hougj\source\repos\menustrip\menustrip\bin\Debug\itextsharp.dll
 C:\Users\hougj\source\repos\menustrip\menustrip\bin\Debug\BouncyCastle.Cryptography.xml
-C:\Users\hougj\source\repos\menustrip\menustrip\bin\Debug\itextsharp.xml
 C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\Note.csproj.Up2Date
 C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.menu.resources
-C:\Users\hougj\source\repos\menustrip\menustrip\bin\Debug\Guna.UI2.dll
 C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.AddNewFile.resources
 C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.directories.resources
 C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.AddNewDirectory.resources
