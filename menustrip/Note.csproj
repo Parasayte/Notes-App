@@ -249,5 +249,8 @@
   <ItemGroup>
     <None Include="Resources\Yusuke-Kamiyamane-Fugue-Leaf.16.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fatcow-Farm-Fresh-Folder-link.16.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

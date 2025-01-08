@@ -474,17 +474,14 @@ namespace menustrip
 
         private void randomFlagToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            int minCodePoint = 0x1F1E6;  // 🇦 (Regional Indicator Symbol A)
-            int maxCodePoint = 0x1F1FF;  // 🇿 (Regional Indicator Symbol Z)
+            int minCodePoint = 0x1F1E6; 
+            int maxCodePoint = 0x1F1FF;  
 
-            // Generate two random regional indicator symbols for the flag
             int firstLetter = random.Next(minCodePoint, maxCodePoint + 1);
             int secondLetter = random.Next(minCodePoint, maxCodePoint + 1);
 
-            // Combine them to form a flag
             string flagEmoji = char.ConvertFromUtf32(firstLetter) + char.ConvertFromUtf32(secondLetter);
 
-            // Append the generated flag emoji to the textbox or output control
             rcbx.Text += flagEmoji;
         }
 
@@ -498,44 +495,54 @@ namespace menustrip
 
         private void randomPlaceToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            int minCodePoint = 0x1F3E0;  // 🏠 (House)
-            int maxCodePoint = 0x1F3FF;  // 🏿 (Dark skin tone modifier)
+            int minCodePoint = 0x1F3E0;  
+            int maxCodePoint = 0x1F3FF;  
             int randomCodePoint = random.Next(minCodePoint, maxCodePoint + 1);
             rcbx.Text += char.ConvertFromUtf32(randomCodePoint);
         }
 
         private void randomAnimalToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            int minCodePoint = 0x1F400;  // 🐀 (Rat)
-            int maxCodePoint = 0x1F43E;  // 🐾 (Paw prints)
+            int minCodePoint = 0x1F400; 
+            int maxCodePoint = 0x1F43E;  
             int randomCodePoint = random.Next(minCodePoint, maxCodePoint + 1);
             rcbx.Text += char.ConvertFromUtf32(randomCodePoint);
         }
 
         private void randomFoodToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            int minCodePoint = 0x1F34F;  // 🍯 (Honey pot)
-            int maxCodePoint = 0x1F37F;  // 🍿 (Popcorn)
+            int minCodePoint = 0x1F34F; 
+            int maxCodePoint = 0x1F37F;  
             int randomCodePoint = random.Next(minCodePoint, maxCodePoint + 1);
             rcbx.Text += char.ConvertFromUtf32(randomCodePoint);
         }
 
         private void randomNatureToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            int minCodePoint = 0x1F33F;  // 🌿 (Herb)
-            int maxCodePoint = 0x1F3F4;  // 🏴 (Flag)
+            int minCodePoint = 0x1F33F;  
+            int maxCodePoint = 0x1F3F4;  
             int randomCodePoint = random.Next(minCodePoint, maxCodePoint + 1);
             rcbx.Text += char.ConvertFromUtf32(randomCodePoint);
         }
 
         private void randomObjectToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            int minCodePoint = 0x1F4A0;  // 💠 (Diamond shape with a dot)
-            int maxCodePoint = 0x1F9F8;  // 🧸 (Teddy bear)
+            int minCodePoint = 0x1F4A0;  
+            int maxCodePoint = 0x1F9F8;  
             int randomCodePoint = random.Next(minCodePoint, maxCodePoint + 1);
             string hexCodePoint = randomCodePoint.ToString("X");
 
             rcbx.Text += char.ConvertFromUtf32(randomCodePoint);
+        }
+
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            
+        }
+
+        private void pathToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(Path.GetFullPath(path));
         }
     }
 }

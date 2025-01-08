@@ -16,7 +16,7 @@ namespace menustrip
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new directories());
+            Application.Run(new directories("D:\\Program Files\\Notes"));
         }
     }
 }

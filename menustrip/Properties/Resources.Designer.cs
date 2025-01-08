@@ -93,6 +93,16 @@ namespace menustrip.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Fatcow_Farm_Fresh_Folder_link_16 {
+            get {
+                object obj = ResourceManager.GetObject("Fatcow-Farm-Fresh-Folder-link.16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Hopstarter_Adobe_Cs4_File_Adobe_Dreamweaver_HTML_01_16 {
             get {
                 object obj = ResourceManager.GetObject("Hopstarter-Adobe-Cs4-File-Adobe-Dreamweaver-HTML-01.16", resourceCulture);

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -41,11 +40,11 @@
             this.randomEmojiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.randomFlagToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.randomFaceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.randomNatureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.randomObjectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.randomFoodToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.randomAnimalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.randomPlaceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.randomNatureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fontToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.colorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -68,6 +67,7 @@
             this.renameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newNameToolStripMenuItem = new System.Windows.Forms.ToolStripTextBox();
             this.rcbx = new System.Windows.Forms.RichTextBox();
+            this.pathToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -101,7 +101,7 @@
             // 
             this.saveToolStripMenuItem.Image = global::menustrip.Properties.Resources.Hopstarter_Soft_Scraps_Save_16;
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
@@ -111,7 +111,7 @@
             this.foreColorToolStripMenuItem1});
             this.exportAsHTMLToolStripMenuItem.Image = global::menustrip.Properties.Resources.Hopstarter_Adobe_Cs4_File_Adobe_Dreamweaver_HTML_01_16;
             this.exportAsHTMLToolStripMenuItem.Name = "exportAsHTMLToolStripMenuItem";
-            this.exportAsHTMLToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.exportAsHTMLToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exportAsHTMLToolStripMenuItem.Text = "Export as .html";
             this.exportAsHTMLToolStripMenuItem.Click += new System.EventHandler(this.exportAsHTMLToolStripMenuItem_Click);
             // 
@@ -125,9 +125,9 @@
             // 
             // exportAstxtToolStripMenuItem
             // 
-            this.exportAstxtToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("exportAstxtToolStripMenuItem.Image")));
+            this.exportAstxtToolStripMenuItem.Image = global::menustrip.Properties.Resources.Hopstarter_Sleek_Xp_Basic_Folder_Open_16;
             this.exportAstxtToolStripMenuItem.Name = "exportAstxtToolStripMenuItem";
-            this.exportAstxtToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.exportAstxtToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exportAstxtToolStripMenuItem.Text = "Export as ...";
             this.exportAstxtToolStripMenuItem.Click += new System.EventHandler(this.exportAstxtToolStripMenuItem_Click);
             // 
@@ -135,7 +135,7 @@
             // 
             this.exitToolStripMenuItem.Image = global::menustrip.Properties.Resources.Hopstarter_Sleek_Xp_Basic_Cancel_16;
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -153,7 +153,7 @@
             // 
             this.currentDateToolStripMenuItem.Image = global::menustrip.Properties.Resources.Hopstarter_Plastic_Mini_Calendar_16;
             this.currentDateToolStripMenuItem.Name = "currentDateToolStripMenuItem";
-            this.currentDateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.currentDateToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.currentDateToolStripMenuItem.Text = "Current Date";
             this.currentDateToolStripMenuItem.Click += new System.EventHandler(this.currentDateToolStripMenuItem_Click);
             // 
@@ -169,7 +169,7 @@
             this.randomPlaceToolStripMenuItem});
             this.randomEmojiToolStripMenuItem.Image = global::menustrip.Properties.Resources.Hopstarter_Sleek_Xp_Basic_Favorite_16;
             this.randomEmojiToolStripMenuItem.Name = "randomEmojiToolStripMenuItem";
-            this.randomEmojiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.randomEmojiToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.randomEmojiToolStripMenuItem.Text = "Random Emoji";
             this.randomEmojiToolStripMenuItem.Click += new System.EventHandler(this.randomEmojiToolStripMenuItem_Click);
             // 
@@ -177,7 +177,7 @@
             // 
             this.randomFlagToolStripMenuItem.Image = global::menustrip.Properties.Resources.Yusuke_Kamiyamane_Fugue_Flag_black_16;
             this.randomFlagToolStripMenuItem.Name = "randomFlagToolStripMenuItem";
-            this.randomFlagToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.randomFlagToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.randomFlagToolStripMenuItem.Text = "Random Flag";
             this.randomFlagToolStripMenuItem.Click += new System.EventHandler(this.randomFlagToolStripMenuItem_Click);
             // 
@@ -185,15 +185,23 @@
             // 
             this.randomFaceToolStripMenuItem.Image = global::menustrip.Properties.Resources.Hopstarter_Sleek_Xp_Basic_Administrator_16;
             this.randomFaceToolStripMenuItem.Name = "randomFaceToolStripMenuItem";
-            this.randomFaceToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.randomFaceToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.randomFaceToolStripMenuItem.Text = "Random Face";
             this.randomFaceToolStripMenuItem.Click += new System.EventHandler(this.randomFaceToolStripMenuItem_Click);
+            // 
+            // randomNatureToolStripMenuItem
+            // 
+            this.randomNatureToolStripMenuItem.Image = global::menustrip.Properties.Resources.Yusuke_Kamiyamane_Fugue_Leaf_16;
+            this.randomNatureToolStripMenuItem.Name = "randomNatureToolStripMenuItem";
+            this.randomNatureToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.randomNatureToolStripMenuItem.Text = "Random Nature";
+            this.randomNatureToolStripMenuItem.Click += new System.EventHandler(this.randomNatureToolStripMenuItem_Click);
             // 
             // randomObjectToolStripMenuItem
             // 
             this.randomObjectToolStripMenuItem.Image = global::menustrip.Properties.Resources.Hopstarter_Soft_Scraps_Coin_16__1_;
             this.randomObjectToolStripMenuItem.Name = "randomObjectToolStripMenuItem";
-            this.randomObjectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.randomObjectToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.randomObjectToolStripMenuItem.Text = "Random Object";
             this.randomObjectToolStripMenuItem.Click += new System.EventHandler(this.randomObjectToolStripMenuItem_Click);
             // 
@@ -201,7 +209,7 @@
             // 
             this.randomFoodToolStripMenuItem.Image = global::menustrip.Properties.Resources.Hopstarter_Plastic_Mini_Coffee_16;
             this.randomFoodToolStripMenuItem.Name = "randomFoodToolStripMenuItem";
-            this.randomFoodToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.randomFoodToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.randomFoodToolStripMenuItem.Text = "Random Food";
             this.randomFoodToolStripMenuItem.Click += new System.EventHandler(this.randomFoodToolStripMenuItem_Click);
             // 
@@ -209,7 +217,7 @@
             // 
             this.randomAnimalToolStripMenuItem.Image = global::menustrip.Properties.Resources.Yusuke_Kamiyamane_Fugue_Animal_16_export;
             this.randomAnimalToolStripMenuItem.Name = "randomAnimalToolStripMenuItem";
-            this.randomAnimalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.randomAnimalToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.randomAnimalToolStripMenuItem.Text = "Random Animal";
             this.randomAnimalToolStripMenuItem.Click += new System.EventHandler(this.randomAnimalToolStripMenuItem_Click);
             // 
@@ -217,17 +225,9 @@
             // 
             this.randomPlaceToolStripMenuItem.Image = global::menustrip.Properties.Resources.Hopstarter_Soft_Scraps_Games_16;
             this.randomPlaceToolStripMenuItem.Name = "randomPlaceToolStripMenuItem";
-            this.randomPlaceToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.randomPlaceToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.randomPlaceToolStripMenuItem.Text = "Random Place";
             this.randomPlaceToolStripMenuItem.Click += new System.EventHandler(this.randomPlaceToolStripMenuItem_Click);
-            // 
-            // randomNatureToolStripMenuItem
-            // 
-            this.randomNatureToolStripMenuItem.Image = global::menustrip.Properties.Resources.Yusuke_Kamiyamane_Fugue_Leaf_16;
-            this.randomNatureToolStripMenuItem.Name = "randomNatureToolStripMenuItem";
-            this.randomNatureToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.randomNatureToolStripMenuItem.Text = "Random Nature";
-            this.randomNatureToolStripMenuItem.Click += new System.EventHandler(this.randomNatureToolStripMenuItem_Click);
             // 
             // viewToolStripMenuItem
             // 
@@ -351,7 +351,7 @@
             // 
             this.restoreToolStripMenuItem.Image = global::menustrip.Properties.Resources.Hopstarter_Soft_Scraps_Button_Reload_16;
             this.restoreToolStripMenuItem.Name = "restoreToolStripMenuItem";
-            this.restoreToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.restoreToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.restoreToolStripMenuItem.Text = "Restore Text";
             this.restoreToolStripMenuItem.Click += new System.EventHandler(this.restoreToolStripMenuItem_Click);
             // 
@@ -392,7 +392,8 @@
             // fileNameToolStripMenuItem
             // 
             this.fileNameToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.renameToolStripMenuItem});
+            this.renameToolStripMenuItem,
+            this.pathToolStripMenuItem});
             this.fileNameToolStripMenuItem.Image = global::menustrip.Properties.Resources.Hopstarter_Soft_Scraps_Button_Blank_Green_16;
             this.fileNameToolStripMenuItem.Name = "fileNameToolStripMenuItem";
             this.fileNameToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
@@ -405,7 +406,7 @@
             this.newNameToolStripMenuItem});
             this.renameToolStripMenuItem.Image = global::menustrip.Properties.Resources.Hopstarter_Sleek_Xp_Basic_Pen_16;
             this.renameToolStripMenuItem.Name = "renameToolStripMenuItem";
-            this.renameToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.renameToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.renameToolStripMenuItem.Text = "Rename";
             this.renameToolStripMenuItem.Click += new System.EventHandler(this.renameToolStripMenuItem_Click);
             // 
@@ -429,6 +430,14 @@
             this.rcbx.Size = new System.Drawing.Size(800, 426);
             this.rcbx.TabIndex = 1;
             this.rcbx.Text = "";
+            // 
+            // pathToolStripMenuItem
+            // 
+            this.pathToolStripMenuItem.Image = global::menustrip.Properties.Resources.Fatcow_Farm_Fresh_Folder_link_16;
+            this.pathToolStripMenuItem.Name = "pathToolStripMenuItem";
+            this.pathToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pathToolStripMenuItem.Text = "Path";
+            this.pathToolStripMenuItem.Click += new System.EventHandler(this.pathToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -492,6 +501,6 @@
         private System.Windows.Forms.ToolStripMenuItem randomFoodToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem randomAnimalToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem randomNatureToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pathToolStripMenuItem;
     }
 }
-
