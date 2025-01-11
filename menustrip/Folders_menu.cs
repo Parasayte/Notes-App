@@ -13,14 +13,14 @@ using System.Xml.Linq;
 
 namespace menustrip
 {
-    public partial class menu : Form
+    public partial class Folders_menu : Form
     {
          string path;
         bool selected;
         List<string> SelectedlabelList = new List<string>();
         List<Label> LabelLis = new List<Label>();
 
-        public menu(string path1)
+        public Folders_menu(string path1)
         {
             InitializeComponent();
             path = path1;
@@ -52,6 +52,7 @@ namespace menustrip
                 label.TabIndex = 0;
                 label.Text = Path.GetFileName(file);
                 label.Image = Resources.T;
+                label.ForeColor = Color.White;
                 label.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
                 this.Controls.Add(label);
                 LabelLis.Add(label);
@@ -100,7 +101,7 @@ namespace menustrip
             if (SelectedlabelList.Contains(clickedButton.Tag.ToString()))
             {
                 label3.Text = Path.GetFullPath(path);
-                clickedButton.BackColor = SystemColors.Control;
+                clickedButton.BackColor = Color.FromArgb(36, 30, 30);
                 SelectedlabelList.Remove(clickedButton.Tag.ToString());
             }
             else
@@ -127,7 +128,7 @@ namespace menustrip
             if (clickedButton != null)
             {
                 string buttonPath = clickedButton.Tag as string; 
-                Form1 form = new Form1(buttonPath);
+                File_editor form = new File_editor(buttonPath);
                 form.Show();
                Hide();
             }
@@ -178,7 +179,7 @@ namespace menustrip
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            directories directories = new directories(Path.GetDirectoryName(path));
+            Directories_menu directories = new Directories_menu(Path.GetDirectoryName(path));
             directories.Show();
             Hide();
         }
@@ -203,7 +204,7 @@ namespace menustrip
 
             MessageBox.Show("The Files Deleted Succefuly","Succeful",MessageBoxButtons.OK,MessageBoxIcon.Information);
                 Hide();
-                menu menu=new menu(path);
+                Folders_menu menu=new Folders_menu(path);
                 menu.Show();
 
         }
@@ -233,7 +234,7 @@ namespace menustrip
                 foreach (Label a in LabelLis)
                 {
                     SelectedlabelList.Remove(a.Tag.ToString()); 
-                    a.BackColor = SystemColors.Control; 
+                    a.BackColor = Color.FromArgb(36, 30, 30); 
                 }
             }
             else

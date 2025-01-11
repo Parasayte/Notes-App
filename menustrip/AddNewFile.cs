@@ -24,7 +24,7 @@ namespace menustrip
     
         private void label1_Click(object sender, EventArgs e)
         {
-            menu m=new menu(path);
+            Folders_menu m=new Folders_menu(path);
            
             m.CreatnewFile(richTextBox1.Text, path);
             Hide();
@@ -32,7 +32,7 @@ namespace menustrip
 
         private void label2_Click(object sender, EventArgs e)
         {
-            menu m = new menu(path);
+            Folders_menu m = new Folders_menu(path);
             m.Show();
 
             Hide();

@@ -24,14 +24,14 @@ namespace menustrip
 
         private void label1_Click(object sender, EventArgs e)
         {
-            directories directories = new directories("D:\\Program Files\\Notes");
+            Directories_menu directories = new Directories_menu("D:\\Program Files\\Notes");
             directories.CreatnewFile(richTextBox1.Text);
             Hide();
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
-            directories directories = new directories("D:\\Program Files\\Notes");
+            Directories_menu directories = new Directories_menu("D:\\Program Files\\Notes");
             directories.Show();
             Hide();
         }

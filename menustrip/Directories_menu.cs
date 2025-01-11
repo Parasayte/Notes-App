@@ -9,13 +9,13 @@ using System.Windows.Forms;
 using menustrip.Properties;
 namespace menustrip
 {
-    public partial class directories : Form
+    public partial class Directories_menu : Form
     {
         bool selected;
         List<string> SelectedlabelList = new List<string>();
         List<Label> LabelLis = new List<Label>();
         string path1 = "D:\\Program Files\\Notes";
-        public directories(string path)
+        public Directories_menu(string path)
         {
             InitializeComponent();
             path1 = path;
@@ -53,6 +53,7 @@ namespace menustrip
                 label.TabIndex = 0;
                 label.Text = Path.GetFileName(file);
                 label.Image = Resources.D;
+                label.ForeColor = Color.White;
                 label.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
                 this.Controls.Add(label);
                 LabelLis.Add(label);
@@ -98,7 +99,7 @@ namespace menustrip
 
             if (SelectedlabelList.Contains(clickedButton.Tag.ToString()))
             {
-                clickedButton.BackColor = SystemColors.Control;
+                clickedButton.BackColor = Color.FromArgb(36,30,30);
                 SelectedlabelList.Remove(clickedButton.Tag.ToString());
             }
             else
@@ -123,7 +124,7 @@ namespace menustrip
             if (clickedButton != null)
             {
                 string buttonPath = clickedButton.Tag as string;
-               menu menu = new menu(buttonPath);
+               Folders_menu menu = new Folders_menu(buttonPath);
                 menu.Show();
                 Hide();
             }
@@ -137,7 +138,7 @@ namespace menustrip
                 string buttonPath = clickedButton.Tag as string;
                string path= Path.GetFullPath(buttonPath);
                
-              menu menu = new menu(path);
+              Folders_menu menu = new Folders_menu(path);
            menu.Show();
               
                 Hide();
@@ -217,7 +218,7 @@ namespace menustrip
             MessageBox.Show("The Folders Deleted Succefuly","Succeful", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             Hide();
-            directories directories = new directories(path1);
+            Directories_menu directories = new Directories_menu(path1);
             directories.Show();
         }
 
@@ -237,7 +238,7 @@ namespace menustrip
                 {
                     SelectedlabelList.Remove(a.Tag.ToString());
 
-                    a.BackColor = SystemColors.Control; 
+                    a.BackColor = Color.FromArgb(36,30,30); 
                   
                 }
             }
@@ -264,7 +265,7 @@ namespace menustrip
         private void label4_Click(object sender, EventArgs e)
         {
             path1 = textBox1.Text;
-            directories d=new directories(path1);
+            Directories_menu d=new Directories_menu(path1);
             d.Show();
             Hide();
         }

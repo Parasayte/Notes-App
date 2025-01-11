@@ -8,12 +8,12 @@ using static Org.BouncyCastle.Asn1.Cmp.Challenge;
 
 namespace menustrip
 {
-    public partial class Form1 : Form
+    public partial class File_editor : Form
     {
         string path;
         string savetext;
         Random random = new Random();
-        public Form1(string path1)
+        public File_editor(string path1)
         {
             InitializeComponent();
             path = path1;
@@ -122,7 +122,7 @@ namespace menustrip
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string parentPath = Path.GetDirectoryName(path);
-            menu a = new menu(parentPath);
+            Folders_menu a = new Folders_menu(parentPath);
             a.Show();
             Hide();
         }

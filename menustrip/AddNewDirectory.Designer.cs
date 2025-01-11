@@ -31,14 +31,16 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddNewDirectory));
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // richTextBox1
             // 
+            this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(56)))), ((int)(((byte)(56)))));
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.Location = new System.Drawing.Point(50, 51);
             this.richTextBox1.Name = "richTextBox1";
@@ -48,7 +50,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.richTextBox1);
             this.panel1.Controls.Add(this.label1);
@@ -58,10 +60,20 @@
             this.panel1.Size = new System.Drawing.Size(283, 166);
             this.panel1.TabIndex = 7;
             // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Silver;
+            this.label3.Location = new System.Drawing.Point(69, 13);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(157, 23);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Add  Directory";
+            // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.label1.Image = global::menustrip.Properties.Resources.Hopstarter_Sleek_Xp_Basic_Add_48;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label1.Image = global::menustrip.Properties.Resources.Hopstarter_Soft_Scraps_Folder_Add_48;
             this.label1.Location = new System.Drawing.Point(47, 103);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 49);
@@ -70,7 +82,7 @@
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.label2.ForeColor = System.Drawing.Color.DimGray;
             this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
             this.label2.Location = new System.Drawing.Point(172, 103);
@@ -78,15 +90,6 @@
             this.label2.Size = new System.Drawing.Size(65, 49);
             this.label2.TabIndex = 6;
             this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // label3
-            // 
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(60, 14);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(157, 23);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Add  Directory";
             // 
             // AddNewDirectory
             // 

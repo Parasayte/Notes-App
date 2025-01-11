@@ -1,6 +1,6 @@
 ﻿namespace menustrip
 {
-    partial class Form1
+    partial class File_editor
     {
         /// <summary>
         /// Required designer variable.
