@@ -93,6 +93,16 @@ namespace menustrip.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Fatcow_Farm_Fresh_Folder_link_16 {
+            get {
+                object obj = ResourceManager.GetObject("Fatcow-Farm-Fresh-Folder-link.16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Hopstarter_Adobe_Cs4_File_Adobe_Dreamweaver_HTML_01_16 {
             get {
                 object obj = ResourceManager.GetObject("Hopstarter-Adobe-Cs4-File-Adobe-Dreamweaver-HTML-01.16", resourceCulture);
@@ -353,6 +363,26 @@ namespace menustrip.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Hopstarter_Soft_Scraps_File_New_64 {
+            get {
+                object obj = ResourceManager.GetObject("Hopstarter-Soft-Scraps-File-New.64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hopstarter_Soft_Scraps_Folder_Add_48 {
+            get {
+                object obj = ResourceManager.GetObject("Hopstarter-Soft-Scraps-Folder-Add.48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Hopstarter_Soft_Scraps_Games_16 {
             get {
                 object obj = ResourceManager.GetObject("Hopstarter-Soft-Scraps-Games.16", resourceCulture);
@@ -386,6 +416,16 @@ namespace menustrip.Properties {
         internal static System.Drawing.Bitmap Hopstarter_Soft_Scraps_Zoom_Out_16 {
             get {
                 object obj = ResourceManager.GetObject("Hopstarter-Soft-Scraps-Zoom-Out.16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Janik_Baumgartner_Woocons_News_Add_32 {
+            get {
+                object obj = ResourceManager.GetObject("Janik-Baumgartner-Woocons-News-Add.32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

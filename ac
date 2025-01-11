@@ -1,0 +1,72 @@
+[33mcommit 423fe225bdb18f3ab54094076fe320f498586dd2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: ABDULSELAM ELAHMED <hougjgrxkj@gmail.com>
+Date:   Wed Jan 8 02:53:54 2025 -0800
+
+    try
+
+[33mcommit 0d42d8f3544d2e6fd49c239590ae2b4f60b5b045[m[33m ([m[1;31morigin/master[m[33m)[m
+Merge: b42c5ef 6bbcae3
+Author: selam <hoigjgrxkj@gmail.com>
+Date:   Fri Dec 27 06:08:30 2024 -0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit b42c5efbbd6670ef39cde22d6ed4db99dc2ec10a[m
+Author: selam <hoigjgrxkj@gmail.com>
+Date:   Fri Dec 27 06:08:03 2024 -0800
+
+    add properties
+
+[33mcommit 6bbcae3af90dfbace4c57a348050c97ef161ed68[m
+Author: ABDULSELAM ELAHMED <149255140+Parasayte@users.noreply.github.com>
+Date:   Wed Dec 25 07:06:31 2024 -0800
+
+    Update README.md
+
+[33mcommit 88f62dcb81a982950c1bf222b6edc37ac716b389[m
+Author: ABDULSELAM ELAHMED <149255140+Parasayte@users.noreply.github.com>
+Date:   Wed Dec 25 06:43:56 2024 -0800
+
+    Create README.md
+
+[33mcommit 22d662f2b510ff6b8d07d8198255ce3a6fa56459[m
+Author: selam <hoigjgrxkj@gmail.com>
+Date:   Wed Dec 25 04:53:13 2024 -0800
+
+    Add delete and select propertie
+
+[33mcommit c90c69251192388e61a0103e0f78cac57aa8b4e7[m
+Author: selam <hoigjgrxkj@gmail.com>
+Date:   Tue Dec 24 22:57:29 2024 -0800
+
+    Add delete propertie
+
+[33mcommit 17842e444724aefd026b456bb0f2621b678edbe8[m
+Author: selam <hoigjgrxkj@gmail.com>
+Date:   Tue Dec 24 09:20:55 2024 -0800
+
+    fix monitoring files
+
+[33mcommit 6cbe98d76bc1a4dd42e22faafdc2ee494e1831af[m
+Author: selam <hoigjgrxkj@gmail.com>
+Date:   Tue Dec 24 07:12:31 2024 -0800
+
+    add folders menu
+
+[33mcommit 6cdfd9ac06e8378ea1c30c5b243b2efe7f43dc82[m
+Author: selam <hoigjgrxkj@gmail.com>
+Date:   Tue Dec 24 07:11:13 2024 -0800
+
+    add folder menu
+
+[33mcommit cdbd545adee63d6029ee0a9c727b6e695c53c8b7[m
+Author: selam <hoigjgrxkj@gmail.com>
+Date:   Tue Dec 24 05:06:49 2024 -0800
+
+    Add menu to creat new files
+
+[33mcommit de703afc551b9c7f025fc3e949d257b95f45fc03[m
+Author: selam <hoigjgrxkj@gmail.com>
+Date:   Sat Nov 23 10:31:52 2024 -0800
+
+    Initial commit

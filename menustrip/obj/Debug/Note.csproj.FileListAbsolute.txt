@@ -2,7 +2,6 @@ C:\Users\hougj\source\repos\menustrip\menustrip\bin\Debug\menustrip.exe.config
 C:\Users\hougj\source\repos\menustrip\menustrip\bin\Debug\menustrip.exe
 C:\Users\hougj\source\repos\menustrip\menustrip\bin\Debug\menustrip.pdb
 C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\Note.csproj.AssemblyReference.cache
-C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.Form1.resources
 C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.Properties.Resources.resources
 C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\Note.csproj.GenerateResource.cache
 C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\Note.csproj.CoreCompileInputs.cache
@@ -11,7 +10,8 @@ C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.pdb
 C:\Users\hougj\source\repos\menustrip\menustrip\bin\Debug\BouncyCastle.Cryptography.dll
 C:\Users\hougj\source\repos\menustrip\menustrip\bin\Debug\BouncyCastle.Cryptography.xml
 C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\Note.csproj.Up2Date
-C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.menu.resources
 C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.AddNewFile.resources
-C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.directories.resources
 C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.AddNewDirectory.resources
+C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.Directories_menu.resources
+C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.File_editor.resources
+C:\Users\hougj\source\repos\menustrip\menustrip\obj\Debug\menustrip.Folders_menu.resources
